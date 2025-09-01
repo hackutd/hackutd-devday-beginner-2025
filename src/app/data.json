@@ -3,23 +3,23 @@
         {
             "course_tag": "CS",
             "course_number": "1200",
-            "course_name": "Introduction to Programming",
-            "course_description": "This course provides an introduction to programming concepts and techniques.",
-            "course_credits": 3
+            "course_name": "Introduction to Computer Science and Software Engineering",
+            "course_description": "This course provides an introduction to software engineering concepts and techniques.",
+            "course_credits": 2
         },
         {
             "course_tag": "CS",
-            "course_number": "1200",
-            "course_name": "Introduction to Programming",
-            "course_description": "This course provides an introduction to programming concepts and techniques.",
-            "course_credits": 3
+            "course_number": "1436",
+            "course_name": "Programming Fundamentals",
+            "course_description": "This course provides an introduction to programming fundamentals.",
+            "course_credits": 4
         },
         {
             "course_tag": "CS",
-            "course_number": "1200",
-            "course_name": "Introduction to Programming",
-            "course_description": "This course provides an introduction to programming concepts and techniques.",
-            "course_credits": 3
+            "course_number": "2305",
+            "course_name": "Discrete Mathematics for Computing I",
+            "course_description": "This course provides an introduction to discrete mathematics.",
+            "course_credits": 4
         }
     ]
 }
