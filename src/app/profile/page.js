@@ -7,7 +7,7 @@ export default function Profile() {
             <Navbar />
             <div className="container mx-auto mt-10 p-6 bg-white shadow rounded">
                 <h1 className="text-2xl font-bold mb-4">Profile</h1>
-                <p>View and edit your profile information here.</p>
+                <p className="text-gray-900">View and edit your profile information here.</p>
                 {/* Add your profile components here */}
             </div>
         </div>
