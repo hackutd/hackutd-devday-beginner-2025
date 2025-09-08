@@ -6,7 +6,7 @@ export default function Settings() {
         <div className="min-h-screen bg-gray-50">
             <Navbar />
             <div className="container mx-auto mt-10 p-6 bg-white shadow rounded">
-                <h1 className="text-2xl font-bold mb-4">Settings</h1>
+                <h1 className="text-2xl font-bold mb-4 text-gray-900">Settings</h1>
                 <p className="text-gray-900">Here you can update your account settings.</p>
                 {/* Add your settings form/components here */}
             </div>
