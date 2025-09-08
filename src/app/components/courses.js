@@ -26,8 +26,14 @@ function Courses() {
     fetchCourses();
   }, []);
 
-  if (loading) return <div>Loading courses...</div>;
-  if (error) return <div> Error: {error} </div>;
+  if (loading)
+   return <div className="min-h-screen text-center py-12 bg-white">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+              <p className="text-gray-600">Loading course data...</p>
+          </div>
+
+  if (error) 
+    return <div> Error: {error} </div>;
 
   const relevantCourses = ["1337", "2305","2340","3341", "3345"];
   const filtered = courses.filter(course => course.subject_prefix == "CS" && relevantCourses.includes(course.course_number)) // filter for CS courses
